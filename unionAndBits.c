@@ -20,7 +20,10 @@ int main(void) {
     u.chr = 43;
     printf("u.chr = %d\n", u.chr);
     printf("u.chr in bit = %d%d%d%d%d%d%d%d\n", 
-            u.b.b1, u.b.b2, u.b.b3, u.b.b4, u.b.b5, u.b.b6, u.b.b7, u.b.b8);
+            u.b.b1, u.b.b2, 
+            u.b.b3, u.b.b4, 
+            u.b.b5, u.b.b6, 
+            u.b.b7, u.b.b8);
     
     return 0;
 }
