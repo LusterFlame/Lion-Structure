@@ -1,3 +1,4 @@
+// This is also the template of exercise2.
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>	// For strcpy().
@@ -57,8 +58,8 @@ Student* mallocStudent(){
 
 	// Allocate memory for member charcter pointers.
 	if((ptr->name 	  = malloc(128)) == NULL || 
-	   (ptr->ID       = malloc(128)) == NULL ||
-	   (ptr->birthday = malloc(128)) == NULL ){
+	   (ptr->ID       = malloc(20)) == NULL ||
+	   (ptr->birthday = malloc(10)) == NULL ){
 		printf("malloc failed.\n");
 		exit(-1);
 	}

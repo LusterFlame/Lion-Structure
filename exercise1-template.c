@@ -2,13 +2,13 @@
 #include <stdlib.h>
 #include <string.h>	// For strcpy().
 
-typedef struct Student{
-	
+
 	/* 
-		Structure Body Here
+		Define the struct "Student" here.
+		Remember to use typedef to name your structure.
+		Or change the way to declair in main() function.
 	*/
 
-} Student;
 
 // Functions
 void printInfo(Student s);
